@@ -10,7 +10,6 @@ export default function Page() {
       }
 
     const [state, formAction] = useFormState(login, initialState)
-    // const [state, formAction] = useActionState(login, initialState)
 
     return (
         <form action={formAction}>
